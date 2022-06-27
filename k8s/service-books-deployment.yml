@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-books
-          image: service-books:latest
+          image: bharathvn7/service-books:v1
           imagePullPolicy: Never
           ports:
            - containerPort: 8081

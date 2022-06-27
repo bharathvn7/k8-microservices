@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-prices
-          image: service-prices:latest
+          image: bharathvn7/service-prices:v1
           imagePullPolicy: Never
           ports:
            - containerPort: 8083

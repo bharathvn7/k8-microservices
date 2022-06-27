@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend-user
-          image: backend-user:latest
+          image: bharathvn7/backend-user:v1
           imagePullPolicy: Never
           readinessProbe:
             httpGet:

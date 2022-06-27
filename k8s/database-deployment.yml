@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bookstore-database
-          image: bookstore-database:latest
+          image: bharathvn7/bookstore-database:v1
           imagePullPolicy: Never
           env:
            - name: POSTGRES_HOST_AUTH_METHOD
